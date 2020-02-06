@@ -11,7 +11,7 @@
 <p align="center">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-191A1E">
 
-  <a href="http://brunosaibert.com.br">
+  <a href="https://github.com/BrunoSaibert">
     <img alt="Made by Bruno Henrique Saibert" src="https://img.shields.io/badge/Made%20by-Bruno%20Henrique520Saibert-191A1E">
   </a>
 
@@ -31,6 +31,8 @@ A aplicação consiste em desenvolver API em NodeJS que será utilizada em uma a
 - Sucrase + Nodemon;
 - ESLint + Prettier + EditorConfig;
 - Sequelize (Utilizando PostgreSQL);
+- Bcryptjs (Criptografia da senha);
+- Autenticação JWT;
 
 ## 💻 Executando a aplicação
 
@@ -43,14 +45,11 @@ $ cd gobarber
 Em seguida, instale as dependências;
 
 ```
-$ npm install
-```
-
-ou
-
-```
 $ yarn
 ```
+
+[ ] Conexão com banco de dados
+
 ## 🚧 **Em Desenvolvimento...**
 
 ---
