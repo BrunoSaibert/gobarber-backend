@@ -48,8 +48,6 @@ Em seguida, instale as dependências;
 $ yarn
 ```
 
-[ ] Conexão com banco de dados
-
 ## 🚧 **Em Desenvolvimento...**
 
 ---
