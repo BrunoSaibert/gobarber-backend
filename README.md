@@ -33,6 +33,7 @@ A aplicação consiste em desenvolver API em NodeJS que será utilizada em uma a
 - Sequelize (Utilizando PostgreSQL);
 - Bcryptjs (Criptografia da senha);
 - Autenticação JWT;
+- Yup (Validação de schema);
 
 ## 💻 Executando a aplicação
 
@@ -46,6 +47,12 @@ Em seguida, instale as dependências;
 
 ```
 $ yarn
+```
+
+Inicie o projeto;
+
+```
+$ yarn dev
 ```
 
 ## 🚧 **Em Desenvolvimento...**
