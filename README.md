@@ -34,6 +34,7 @@ A aplicação consiste em desenvolver API em NodeJS que será utilizada em uma a
 - Bcryptjs (Criptografia da senha);
 - Autenticação JWT;
 - Yup (Validação de schema);
+- Multer (Upload de arquivos)
 
 ## 💻 Executando a aplicação
 
@@ -43,13 +44,31 @@ Após clonar o repositório, acesse a pasta do projeto;
 $ cd gobarber
 ```
 
-Em seguida, instale as dependências;
+Instale as dependências
 
 ```
 $ yarn
 ```
 
-Inicie o projeto;
+Crie um container do banco de dados postgres
+
+```
+$ docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+```
+
+Inicie o container do banco de dados
+
+```
+$ docker start database
+```
+
+Crie as tabelas no banco de dados
+
+```
+$ yarn sequelize db:migrate
+```
+
+Inicie o projeto
 
 ```
 $ yarn dev
